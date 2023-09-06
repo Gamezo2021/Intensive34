@@ -14,7 +14,7 @@ public class CollectionTest {
 
     @BeforeEach
     public void creatArrayList(){
-        list.add("Java");
+        list.add("Javaa");
         list.add("Intensive");
         list.add("Continue");
     }
@@ -26,6 +26,6 @@ public class CollectionTest {
 
     @Test
     public void maxTest() {
-        Assertions.assertEquals(Collections.max(list),"Java");
+        Assertions.assertEquals(Collections.max(list),"Javaa");
     }
 }
