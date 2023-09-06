@@ -50,6 +50,5 @@ public class OrderTest {
             User user1 = new User(22,"Egorov","Slava");
             Buying buying = new Buying(Manufacturer.ASUS, "AWD", BigDecimal.valueOf(0), user1);
         });
-
     }
 }
