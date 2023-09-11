@@ -1,5 +1,6 @@
 package ru.aston.gamezo_ag.task1;
 
+
 import java.math.BigDecimal;
 
 public abstract class Computer implements Discount {
@@ -9,9 +10,6 @@ public abstract class Computer implements Discount {
     private BigDecimal price;
     private User user;
 
-
-
-    public Computer(Manufacturer manufacturer, String model, BigDecimal price , User user){
         this.setManufacturer(manufacturer);
         this.setModel(model);
         this.setPrice(price);
