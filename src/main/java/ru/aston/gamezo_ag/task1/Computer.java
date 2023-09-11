@@ -1,6 +1,5 @@
 package ru.aston.gamezo_ag.task1;
 
-import ru.aston.gamezo_ag.task1.Exception.PriceSettingException;
 
 import java.math.BigDecimal;
 
@@ -11,10 +10,6 @@ public abstract class Computer implements Discount {
     private BigDecimal price;
     private User user;
 
-    public Computer(Manufacturer manufacturer, String model, BigDecimal price , User user) throws PriceSettingException {
-        if (price.compareTo(BigDecimal.ZERO) <= 0 ){
-            throw new PriceSettingException("ExceptionId 1","Price must positive",10);
-        }
         this.setManufacturer(manufacturer);
         this.setModel(model);
         this.setPrice(price);
