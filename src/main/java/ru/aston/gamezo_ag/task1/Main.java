@@ -25,7 +25,7 @@ public class Main {
             deals.add(computer1);
             deals.add(computer2);
             deals.add(computer3);
-        }catch (PriceSettingException e){
+        } catch (PriceSettingException e){
             System.out.println(e.toString());
         }
 
